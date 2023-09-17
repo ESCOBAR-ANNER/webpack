@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    max-width: 1200px; /* Limita el ancho de la galería */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center;
+  }
+  
+  /* Estilos para la entrada de texto y el botón */
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para las imágenes */
+  /* Estilos para las imágenes */
+.img-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: calc(25% - 20px); /* Establece el ancho máximo de cada imagen */
+    text-align: center; /* Centra las imágenes */
+    display: inline-block; /* Hace que los contenedores sean elementos en línea */
+    margin: 10px; /* Agrega espacio entre las imágenes */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+  }
+  
+  .img-container img {
+    max-width: 100%; /* Establece el tamaño máximo de las imágenes */
+    height: auto;
+  }
